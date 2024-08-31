@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2a36a8;
+    color: rgb(255, 255, 255);
+    padding: 1em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: rgb(224, 232, 233);
+    text-decoration: none;
+}
+
+main {
+    padding: 20px;
+}
+
+h1 {
+    color: #e4dada;
+}
+
+h2 {
+    color: #364ba9;
+}
+
+img {
+    max-width: 100%;
+
+    height: auto;
+
+}
+
+.big-flag {
+    width: center, 900px;
+    position: center;
+}
+
+footer {
+    background-color: #2a36a8;
+    text-align: center;
+    padding: 10px 0;
+}
+
+a {
+    color: #4c59af;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+.btn-3d {
+    background-color: #2927ae;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transform: translateZ(0);
+    transition: transform 0.4s ease;
+}
+
+.btn-3d:hover {
+    transform: translateZ(10px);
+}
+
+.image-container {
+    border: 3px solid black;
+    padding: 10px;
+    display: inline-block;
+    /* Necessário para funcionar com text-align no contêiner pai */
+}
+
+
+div {
+    text-align: center;
+}
